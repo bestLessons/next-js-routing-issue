@@ -9,11 +9,14 @@ export default function Home() {
         // [username]/posts/[slug]
         onClick={() => router.push("/john/posts/lorem-slug")}
       >
-        Go to coyote listing
+        Go to /john/posts/lorem-slug
       </button>
 
+      <br />
+      <br />
+
       <button type="button" onClick={() => router.push("/me/test")}>
-        Go to test
+        Go to /me/test
       </button>
     </>
   )
