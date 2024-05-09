@@ -13,7 +13,7 @@ export default function Home() {
       </button>
 
       <button type="button" onClick={() => router.push("/me/test")}>
-        Go to sasha
+        Go to test
       </button>
     </>
   )
